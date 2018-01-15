@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package>
+  <name>step_voice</name>
+  <version>0.0.0</version>
+    <maintainer email="marcinmuminski@gmail.com">muminski</maintainer>
+  <description>The step_voice package</description>
+ <license>TODO</license>
+  <buildtool_depend>catkin</buildtool_depend>
+<build_depend>roscpp</build_depend>
+<build_depend>roslib</build_depend>
+<build_depend>step_voice_libs</build_depend>
+<run_depend>roscpp</run_depend>
+<run_depend>roslib</run_depend>
+<run_depend>step_voice_libs</run_depend>
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- You can specify that this package is a metapackage here: -->
+    <!-- <metapackage/> -->
+
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

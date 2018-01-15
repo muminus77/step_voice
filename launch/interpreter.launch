@@ -1,0 +1,6 @@
+<launch>
+  <node name="voice_node" pkg="spirit_demon_voice" type="voice_node">
+  </node>
+</launch>
+
+

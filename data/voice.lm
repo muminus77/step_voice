@@ -1,0 +1,117 @@
+Language model created by QuickLM on Mon Sep 19 05:47:56 EDT 2016
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 20 sentences and 26 words
+
+\data\
+ngram 1=26
+ngram 2=44
+ngram 3=24
+
+\1-grams:
+-0.8062 </s> -0.3010
+-0.8062 <s> -0.2272
+-2.1072 ATTACK -0.2272
+-2.1072 BACKWARD -0.2272
+-2.1072 BRUSH -0.2272
+-2.1072 DEMON -0.2272
+-2.1072 DOWN -0.2272
+-2.1072 FEMALE -0.2272
+-2.1072 FORWARD -0.2272
+-2.1072 HELLO -0.2272
+-2.1072 INTRODUCE -0.2976
+-2.1072 KINDLY -0.2272
+-2.1072 LEFT -0.2272
+-2.1072 LOUDER -0.2272
+-2.1072 MALE -0.2272
+-2.1072 MOP -0.2272
+-2.1072 RIGHT -0.2272
+-2.1072 SAY -0.2976
+-2.1072 START -0.2272
+-2.1072 STOP -0.2272
+-2.1072 TURN -0.2272
+-2.1072 UP -0.2272
+-2.1072 WHISPER -0.2272
+-2.1072 WOULD -0.2976
+-2.1072 YOU -0.2976
+-2.1072 YOURSELF -0.2272
+
+\2-grams:
+-1.6021 <s> ATTACK 0.0000
+-1.6021 <s> BACKWARD 0.0000
+-1.6021 <s> BRUSH 0.0000
+-1.6021 <s> DEMON 0.0000
+-1.6021 <s> DOWN 0.0000
+-1.6021 <s> FEMALE 0.0000
+-1.6021 <s> FORWARD 0.0000
+-1.6021 <s> INTRODUCE 0.0000
+-1.6021 <s> LEFT 0.0000
+-1.6021 <s> LOUDER 0.0000
+-1.6021 <s> MALE 0.0000
+-1.6021 <s> MOP 0.0000
+-1.6021 <s> RIGHT 0.0000
+-1.6021 <s> SAY 0.0000
+-1.6021 <s> START 0.0000
+-1.6021 <s> STOP 0.0000
+-1.6021 <s> TURN 0.0000
+-1.6021 <s> UP 0.0000
+-1.6021 <s> WHISPER 0.0000
+-1.6021 <s> WOULD 0.0000
+-0.3010 ATTACK </s> -0.3010
+-0.3010 BACKWARD </s> -0.3010
+-0.3010 BRUSH </s> -0.3010
+-0.3010 DEMON </s> -0.3010
+-0.3010 DOWN </s> -0.3010
+-0.3010 FEMALE </s> -0.3010
+-0.3010 FORWARD </s> -0.3010
+-0.3010 HELLO </s> -0.3010
+-0.3010 INTRODUCE YOURSELF 0.0000
+-0.3010 KINDLY </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.3010 LOUDER </s> -0.3010
+-0.3010 MALE </s> -0.3010
+-0.3010 MOP </s> -0.3010
+-0.3010 RIGHT </s> -0.3010
+-0.3010 SAY HELLO 0.0000
+-0.3010 START </s> -0.3010
+-0.3010 STOP </s> -0.3010
+-0.3010 TURN </s> -0.3010
+-0.3010 UP </s> -0.3010
+-0.3010 WHISPER </s> -0.3010
+-0.3010 WOULD YOU 0.0000
+-0.3010 YOU KINDLY 0.0000
+-0.3010 YOURSELF </s> -0.3010
+
+\3-grams:
+-0.3010 <s> ATTACK </s>
+-0.3010 <s> BACKWARD </s>
+-0.3010 <s> BRUSH </s>
+-0.3010 <s> DEMON </s>
+-0.3010 <s> DOWN </s>
+-0.3010 <s> FEMALE </s>
+-0.3010 <s> FORWARD </s>
+-0.3010 <s> INTRODUCE YOURSELF
+-0.3010 <s> LEFT </s>
+-0.3010 <s> LOUDER </s>
+-0.3010 <s> MALE </s>
+-0.3010 <s> MOP </s>
+-0.3010 <s> RIGHT </s>
+-0.3010 <s> SAY HELLO
+-0.3010 <s> START </s>
+-0.3010 <s> STOP </s>
+-0.3010 <s> TURN </s>
+-0.3010 <s> UP </s>
+-0.3010 <s> WHISPER </s>
+-0.3010 <s> WOULD YOU
+-0.3010 INTRODUCE YOURSELF </s>
+-0.3010 SAY HELLO </s>
+-0.3010 WOULD YOU KINDLY
+-0.3010 YOU KINDLY </s>
+
+\end\

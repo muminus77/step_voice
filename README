@@ -1,0 +1,15 @@
+*instalacja espeak
+sudo apt-get install espeak
+
+*instalacja MBrola voice:
+http://espeak.sourceforge.net/mbrola.html
+
+*instalacja pocketsphinx:
+sudo apt-get install ros-jade-pocketsphinx
+sudo apt-get install gstreamer0.10-gconf
+
+jeśli błąd: "Client failed to connect to the D-BUS daemon:"
+
+eval $(dbus-launch --sh-syntax)
+export DBUS_SESSION_BUS_ADDRESS
+export DBUS_SESSION_BUS_PID
