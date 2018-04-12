@@ -1,8 +1,0 @@
-<launch>
-  <node name="recognizer" pkg="pocketsphinx" type="recognizer.py">
-    <param name="lm" value="$(find spirit_demon_voice)/data/voice.lm"/>
-    <param name="dict" value="$(find spirit_demon_voice)/data/voice.dic"/>
-  </node>
-</launch>
-
-

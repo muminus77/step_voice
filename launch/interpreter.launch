@@ -1,6 +1,7 @@
 <launch>
-  <node name="voice_node" pkg="spirit_demon_voice" type="voice_node">
+<node name="step_voice_node" pkg="step_voice" type="step_voice_node">
   </node>
+
 </launch>
 
 

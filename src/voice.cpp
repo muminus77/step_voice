@@ -34,6 +34,7 @@ Voice::~Voice()
 void Voice::VoiceReceived(const std_msgs::String &voice)
 {
     male_voice->SayIt(0, voice.data);
+    ROS_INFO_STREAM("Voice: " << voice.data);
 //    if (!voice.data.empty())
 //    {
 //            if(divideVoice(voice.data))
